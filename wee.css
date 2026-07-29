@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Inter',sans-serif;
+    background:#090d1f;
+    overflow-x:hidden;
+    color:white;
+}
+
+/* BACKGROUND */
+
+.background{
+
+    position:fixed;
+    inset:0;
+
+    background:
+
+    radial-gradient(circle at 50% 45%,
+    rgba(200,30,70,.55),
+    rgba(130,20,60,.45) 30%,
+    rgba(80,15,40,.25) 55%,
+    transparent 70%),
+
+    radial-gradient(circle at top left,
+    rgba(160,40,120,.30),
+    transparent 45%),
+
+    radial-gradient(circle at bottom right,
+    rgba(150,0,60,.25),
+    transparent 40%),
+
+    #091122;
+
+    filter:blur(5px);
+
+    z-index:-2;
+}
+
+/* NAVBAR */
+
+nav{
+
+    width:90%;
+
+    max-width:1250px;
+
+    margin:35px auto;
+
+    height:75px;
+
+    border-radius:40px;
+
+    background:#101633;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 40px;
+
+}
+
+.logo{
+
+    color:#ff4d73;
+
+    font-size:30px;
+
+    font-weight:800;
+}
+
+nav ul{
+
+    display:flex;
+
+    gap:50px;
+
+    list-style:none;
+}
+
+nav a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-weight:500;
+
+    transition:.3s;
+}
+
+nav a:hover{
+
+    color:#ff4d73;
+}
+
+.icons{
+
+    font-size:22px;
+
+    letter-spacing:15px;
+}
+
+/* HERO */
+
+.hero{
+
+    width:90%;
+
+    max-width:1250px;
+
+    margin:auto;
+
+    padding-top:80px;
+}
+
+.hero h1{
+
+    font-size:7rem;
+
+    line-height:1;
+
+    font-weight:800;
+
+    max-width:900px;
+}
+
+.hero p{
+
+    margin-top:40px;
+
+    color:#d2d5df;
+
+    font-size:1.4rem;
+
+    max-width:700px;
+
+    line-height:1.8;
+}
+
+.btn{
+
+    margin-top:50px;
+
+    display:inline-block;
+
+    text-decoration:none;
+
+    color:white;
+
+    background:#ff3d6d;
+
+    padding:18px 40px;
+
+    border-radius:50px;
+
+    font-size:18px;
+
+    transition:.3s;
+}
+
+.btn:hover{
+
+    background:#ff245d;
+}

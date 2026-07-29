@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fatainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    background-color: white;
+}
+.vead{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.fast{
+    padding: 10px;
+    width: 80px;
+    border-radius: 59px;
+}
+.punch{
+    padding: 10px;
+    width: 190px;
+    border-radius: 59px;
+    background-color: black;
+    color: white; 
+}
+.hope{
+    padding: 10px;
+    width: 150px;
+    border-radius: 59px;
+    background-color: white;
+    color: grey;
+}
+.vead h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+span{
+    background: linear-gradient(90deg,magenta 2.5%,coral 5%, blue 73%,orange 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.card-container{
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 8px;
+}
+.card-holder{
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px; 
+    padding: 10px;
+    align-items: center;
+    border-radius: 8px;
+}
+.card-display h2{
+    font-size: 17px;
+}
+.speed{
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 8px;
+}
+.rebel{
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 8px;
+}
+.prime{
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.carding{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+.slabbing{
+    display: flex;
+    padding: 5px;
+    gap: 20px;
+    
+}
+.fight{
+   display: grid;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 8px; 
+}
+.spongebob{
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column
+}
+
+    
+
+.slabbing{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+.spongebo{
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column;
+    }
+    .maid{
+        display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column;
+    }
+    .shit{    
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column    
+    }
+    .stat{
+       display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column 
+    }
+    .ninja{
+      display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column   
+    }
+      .mercy{
+        display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column
+      } 
+      .anime{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 15px;
+      }   
+    .okpa{
+       display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column
+ 
+    }
+    .korea{
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column 
+    }
+    .fernandes{
+      display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column   
+    }
+    .cast{
+      display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column  
+    }
+    .brabantia{
+    display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column  
+    
+    }
+    .phone{
+        display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column  
+
+    }
+    .laptop{
+        display: flex;
+    gap: 10px;
+    border: 1px solid gray;
+    width: 220px;
+    padding: 10px;
+    align-items: left;
+    border-radius: 8px;
+    flex-direction: column  
+
+    }
+    .colepan{
+         display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  flex-direction: column;
+  gap: 10px;
+    }
+    .colepan h1{
+        font-size: 40px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .eew{
+    margin-top: 10px;
+margin-top: 20px;
+margin-top: 50px;
+margin-top: 100px;
+    }
+    .gary{
+        display: flex;
+           background: transparent;
+    color: #333;
+    border: 2px solid #222;
+    border-radius: 999px;
+    padding: 12px 28px;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    }
+    .roman{
+        display: flex;
+        justify-content: center;
+    align-items: center;
+    gap: 15px;
+    }
+    .sandy{
+      display: flex;    
+          background: transparent;
+    border: none;
+    outline: none;
+    color: #555;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    
+    }
+
+    
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    .carding{
+        flex-direction: column;
+    }
+}

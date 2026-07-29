@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.hero-section{
+    background-color: red;
+    padding: 20px;
+    margin: 30px;
+border-radius: 20px;
+}
+.blaint{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    background-color: black;
+    color: crimson;
+    border-radius: 50px;
+}
+.paint{
+    list-style: none;
+}
+.baena{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.burnt{
+    list-style: none;
+}
+.faint{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.tast h1{
+ font-size: 120px;
+color: white;
+}
+.tast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+}
+.aunt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+}
+
+
+body{
+    
+  background-color: black;
+}
+.epant{
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: crimson;
+}
+
+   
+
+
+    
