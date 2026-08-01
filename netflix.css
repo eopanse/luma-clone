@@ -108,7 +108,7 @@ body {
     cursor: pointer;
 
     }
-@media (max-width: 1440) {
+@media (max-width: 1440px) {
 
     .domain {
     display: flex;
