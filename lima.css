@@ -42,6 +42,7 @@
 .vead h1{
     font-size: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 
 }
 span{
@@ -303,6 +304,7 @@ margin-top: 100px;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
+    margin-top: 50px;
     }
     .roman{
         display: flex;
@@ -314,19 +316,62 @@ margin-top: 100px;
       display: flex;    
           background: transparent;
     border: none;
+    border-radius: 20px;
     outline: none;
     color: #555;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
     padding: 0;
-    
+    margin-top: 45px;
     }
+    .farnki{
+         display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 10px;
+    }
+.streel{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-top: 60px;
+    color: #333;
+   
+}
+  .farnki h1{
+    font-size: 28px;
+  }  
+ .saka{
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+ }
+ .rice{
+    margin-top: 10px;
+ }
+ .bellingham{
+ margin-top: 10px;
+ }
+ .kane{
+    margin-top: 10px;
+ }
+  .rashford{
+    margin-top: 10px;
+  }
+  .ethan{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-top: 20px;
+    color: gray;
+  }
+  
 
-    
-
-
-
+  
+.lamps{
+  
+}
 
 
 
@@ -336,5 +381,11 @@ margin-top: 100px;
 @media(max-width: 768px){
     .carding{
         flex-direction: column;
+    }
+    .slabbing{
+            grid-template-columns: repeat(1,1fr);
+    padding: 20px;
+    margin: auto;
+    width: 80%;
     }
 }

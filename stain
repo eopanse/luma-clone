@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="netflix.css">
+    <title>Netflix.clone</title>
+</head>
+<body>
+     <nav class="domain">
+        <img src="logomania.png" alt="" width="200px">
+        <button class="legend">sign In</button>
+     </nav>
+      <header class="movie">
+        <div class="fred">
+<h1>Unlimited movies, TV <br>shows, and more</h1>
+<p class="diana">Starts at ₦2,500. Cancel anytime.</p>
+<p class="barbie">Ready to watch? Enter your email to create or restart your <br>membership.</p>
+    <div class="lori">
+        <form  class="login-form"    action="">
+        <label for=""></label>
+        <input type="email" class="email-input" placeholder="Email address">
+       </form>
+       <button class="bianca"> Get Started ></button>
+      </div>  
+
+       
+</div>
+      
+      </header>
+</body>
+</html>
