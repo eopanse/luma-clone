@@ -111,10 +111,10 @@ body {
 @media (max-width: 1440px) {
 
     .domain {
-    display: flex;
+   display: flex;
     align-items: center;
     justify-content: space-between;
-
+ 
     position: relative;
     z-index: 10;
 
